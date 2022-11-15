@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="header">
+<img src="https://www.lawctopus.com/wp-content/uploads/2021/02/Bennett-Logo-VerticalColor-993x1024.png" />
+<h1>Bennett University</h1>
+</div>
+<br>
+
+<div class="navbar">
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Clients</a>
+<a href="#">Contact</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" float="left" onclick="openNav()">☰ </span>
+<div class="dropdown">
+<button class="dropbtn">Home
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="aboutus.html">About Us</a>
+<a href="mission.html">Mission</a>
+<a href="team.html">Team</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Activities
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="sports.html">Sports</a>
+<a href="acad.html">Academics</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Facilities
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="sportscomplex.html">Sports Complex</a>
+<a href="library.html">Library</a>
+<a href="hostel.html">Hostels</a>
+<a href="mess.html">Cafeteria</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Clubs
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="fullstack.html">Full Stack</a>
+<a href="dev.html">Dev OPS</a>
+<a href="ai.html">AI</a>
+<a href="blockchain.html">Block Chain</a>
+</div>
+</div>
+</div>
+<script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<h1>Welcome</h1>
+<footer class="social-footer">
+    <div class="social-footer-left">
+      <a href="#"><img class="logo" src="https://www.lawctopus.com/wp-content/uploads/2021/02/Bennett-Logo-VerticalColor-993x1024.png" width="100px" height="100px"></a>
+    </div>
+    <div class="social-footer-icons">
+      <ul class="menu simple">
+        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      </ul>
+      
+    </div>
+  </footer>
+  
+  
+
+</body>
+</html>
